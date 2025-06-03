@@ -1,9 +1,9 @@
 {
-    "name": "Vzduch Dotek",
+    "name": "AirTouch3",
     "version": "2.0.23",
-    "slug": "vzduch_dotek",
+    "slug": "AirTouch3",
     "description": "Vzduch Dotek Api",
-    "arch": [ "amd64" ],
+    "arch": [ "armv7" ],
     "url":"https://github.com/ozczecho/vzduch-dotek",
     "webui": "http://[HOST]:[PORT:5353]/api/aircons",
     "startup": "application",
@@ -16,7 +16,7 @@
         "5353/tcp": "Web Api"
     },
     "options": {
-        "airtouch_host": "192.168.80.21",
+        "airtouch_host": "192.168.0.205",
         "airtouch_port": 8899,
         "logLevel": "Information"
     },
